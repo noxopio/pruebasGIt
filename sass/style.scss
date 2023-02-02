@@ -13,16 +13,19 @@
 body{
     display: grid;
   place-items: center;
-  height: 100vh;
+  height: 300vh;
   background-color: black;
   margin: 0rem;
-  overflow: hidden;
+  
 }
 
 .img {
    width: 100%;
 }
 h1{
+    position: sticky;
+    top:0px;
+    gap:2rem;
     font-family: 'Space Mono', monospace;
     font-size: clamp(3rem, 10vw, 10rem);
     color: white;
@@ -48,4 +51,38 @@ h2{
       
         transform: rotate(180deg);
     }
+}
+
+.menu{
+    height: 70vh;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.644) ,#ff000059),url('https://www.seresmitologicos.net/wp-content/uploads/2011/09/vampiro_murcielago.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.title{
+    text-align: center;
+    line-height: 70vh;
+    font-size: 3rem;
+    color: #fff;
+}
+
+
+nav{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: sticky;
+    top: 0px;
+}
+.nav__link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
 }
