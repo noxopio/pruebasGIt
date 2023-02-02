@@ -1,6 +1,19 @@
 * {
-  background-color: black;
-  color: white;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primario:black;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-primario);
+}
+
+.img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
