@@ -4,16 +4,43 @@
 }
 
 :root {
-  --color-primario:black;
+  --color-primario:rgb(255, 255, 255);
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--color-primario);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: black;
+  margin: 0rem;
+  overflow: hidden;
 }
 
 .img {
   width: 100%;
+}
+
+h1 {
+  font-family: "Space Mono", monospace;
+  font-size: clamp(3rem, 10vw, 10rem);
+  color: white;
+  padding: 0rem clamp(1rem, 2vw, 3rem);
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+}
+h1:hover {
+  background-color: white;
+  color: black;
+}
+
+h2 {
+  font-family: "Space Mono", monospace;
+  font-size: clamp(3rem, 10vw, 10rem);
+  color: white;
+  padding: 0rem clamp(1rem, 2vw, 3rem);
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+}
+h2:hover {
+  transform: rotate(180deg);
 }
 
 /*# sourceMappingURL=style.css.map */
