@@ -48,7 +48,7 @@ h1{
 }
 h2{
     position: sticky;
-    top: 10PX;
+    top: 200PX;
     height: 100vh;
     z-index: 0;
     font-family: 'Space Mono', monospace;
@@ -56,7 +56,7 @@ h2{
   color: white;
   padding: 0rem clamp(1rem, 2vw, 3rem);
   border-radius: clamp(0.4rem, 0.75vw, 1rem); 
-  background-color: rgba(46, 250, 6, 0.089);
+
  
   border-right: 4px solid;
   width: 14ch;
