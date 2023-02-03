@@ -1,6 +1,7 @@
 .card {
   position: sticky;
-  top: 100px;
+  top: 10px;
+  z-index: 2;
   text-align: center;
   line-height: 30vh;
   font-size: 3rem;
@@ -17,7 +18,7 @@
 
 iframe {
   position: sticky;
-  top: 250px;
+  top: 20px;
 }
 
 * {
@@ -32,7 +33,7 @@ iframe {
 body {
   display: grid;
   place-items: center;
-  height: 100vh;
+  height: 300vh;
   background-color: black;
   margin: 0rem;
 }
@@ -63,11 +64,16 @@ h1:hover {
 }
 
 h2 {
+  position: sticky;
+  top: 10PX;
+  height: 100vh;
+  z-index: 0;
   font-family: "Space Mono", monospace;
   font-size: clamp(3rem, 10vw, 10rem);
   color: white;
   padding: 0rem clamp(1rem, 2vw, 3rem);
   border-radius: clamp(0.4rem, 0.75vw, 1rem);
+  background-color: rgba(46, 250, 6, 0.089);
   border-right: 4px solid;
   width: 14ch;
   white-space: nowrap;

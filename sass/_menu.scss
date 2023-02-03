@@ -1,6 +1,7 @@
 .card{
     position: sticky;
-    top: 100px;
+    top: 10px;
+    z-index: 2;
     text-align: center;
     line-height:30vh;
     font-size: 3rem;
@@ -18,5 +19,5 @@
 iframe{
 
     position: sticky;
-    top: 250px;
+    top: 20px;
 }
