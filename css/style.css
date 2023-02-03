@@ -1,3 +1,11 @@
+.card {
+  text-align: center;
+  line-height: 30vh;
+  font-size: 3rem;
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.178), rgba(255, 255, 255, 0.295));
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -29,6 +37,11 @@ h1 {
   padding: 0rem clamp(1rem, 2vw, 3rem);
   border-radius: clamp(0.4rem, 0.75vw, 1rem);
   background-image: linear-gradient(black, red);
+  border-right: 4px;
+  width: 10ch;
+  white-space: nowrap;
+  animation: typing 2s steps(10), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
 }
 h1:hover {
   background-color: white;
@@ -41,6 +54,11 @@ h2 {
   color: white;
   padding: 0rem clamp(1rem, 2vw, 3rem);
   border-radius: clamp(0.4rem, 0.75vw, 1rem);
+  border-right: 4px solid;
+  width: 14ch;
+  white-space: nowrap;
+  animation: typing 2s steps(14), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
 }
 h2:hover {
   transform: rotate(180deg);
@@ -56,7 +74,7 @@ h2:hover {
 
 .title {
   text-align: center;
-  line-height: 70vh;
+  line-height: 30vh;
   font-size: 3rem;
   color: #fff;
 }
@@ -76,6 +94,31 @@ nav {
   color: #fff;
   text-decoration: none;
   font-size: 1.3rem;
+}
+
+span {
+  top: 0;
+  position: fixed;
+  z-index: 2;
+  color: red;
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 20ch;
+  animation: typing 5s steps(20), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
