@@ -1,4 +1,15 @@
+
+@use 'header';
+@use "menu";
+
+body{
+margin: 0;
+box-sizing: 0;
+
+}
+
 /* @use 'menu';
+
 
 *{
     margin: 0;
