@@ -1,6 +1,6 @@
 
 @use 'header';
-@use "menu";
+@use 'footer';
 
 body{
 margin: 0;
@@ -8,10 +8,10 @@ box-sizing: 0;
 
 }
 
-/* @use 'menu';
 
 
-*{
+
+/* *{
     margin: 0;
     box-sizing: border-box;  
  }
@@ -154,4 +154,4 @@ from{
         border-color:transparent ;
     }
     
-} */
+}  */
