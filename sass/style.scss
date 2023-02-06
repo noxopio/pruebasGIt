@@ -1,4 +1,4 @@
-@use 'menu';
+/* @use 'menu';
 
 *{
     margin: 0;
@@ -13,8 +13,8 @@
 body{
     display: grid;
   place-items: center;
-  height: 300vh;
-  background-color: black;
+ 
+
   margin: 0rem;
   
 }
@@ -48,29 +48,35 @@ h1{
 }
 h2{
     position: fixed;
-    top: 200PX;
-    height: 100vh;
+    width:  0 100px;
+    top: 50%;
+  
     z-index: 0;
     font-family: 'Space Mono', monospace;
   font-size: clamp(3rem, 10vw, 10rem);
-  color: white;
+  color: rgba(0, 0, 0, 0.856);
   padding: 0rem clamp(1rem, 2vw, 3rem);
   border-radius: clamp(0.4rem, 0.75vw, 1rem); 
-
+  text-shadow: 0 0 60px  rgb(81, 255, 0);
+  text-transform: uppercase;
+  transition: all 2s ease-in-out;
  
-  border-right: 4px solid;
-  width: 14ch;
+  border-right: 4px solid rgb(81, 255, 0);
+  
+  width:11ch;
   white-space:nowrap;
-  animation: typing  2s steps(14),
+  animation: typing  3s steps(14),
   blink .5s infinite step-end alternate;
   overflow: hidden;   
 
 
 
 
+
     &:hover { 
-      
-        transform: rotate(180deg);
+        transition: all 2s ease-in-out;
+        background-color: white;
+  color: rgb(240, 238, 238);
     }
 }
 
@@ -137,4 +143,4 @@ from{
         border-color:transparent ;
     }
     
-}
+} */
