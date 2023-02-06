@@ -22,7 +22,7 @@ document.querySelector("h1").onmouseover = Event => {
 
 
  LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ*!";
-document.querySelector("h").onmouseover = Event => {
+document.querySelector("h2").onmouseover = Event => {
     let interations = 0;
     const interval = setInterval(() => {
         Event.target.innerText = Event.target.innerText.split("").map((letter, index) => {
@@ -37,4 +37,3 @@ document.querySelector("h").onmouseover = Event => {
         interations+=1/3;
     }, 40)
 };
-
