@@ -1,12 +1,17 @@
 .footer {
   align-items: center;
-  color: rgb(0, 0, 0);
+  margin-left: 10rem;
   background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(175, 1, 1);
-  border-right: 4px solid rgb(81, 255, 0);
-  width: 50ch;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.footer_-tittle {
+  margin-left: 10rem;
+  width: 28ch;
   white-space: nowrap;
+  border-right: 4px solid rgb(81, 255, 0);
   animation: typing 3s steps(14), blink 0.5s infinite step-end alternate;
+  overflow-wrap: break-word;
   overflow: hidden;
   text-transform: uppercase;
   transition: all 2s ease-in-out;
