@@ -1,3 +1,15 @@
+footer {
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 21px 21px 42px #e0e0e0, -21px -21px 42px #ffffff;
+}
+
+.header__title {
+  border-radius: 5px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 20px #e0e0e0, -10px -10px 20px #ffffff;
+}
+
 .footer {
   align-items: center;
   margin-left: 10rem;
