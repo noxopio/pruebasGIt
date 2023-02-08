@@ -1,0 +1,15 @@
+@mixin neo($radius , $eje ){
+border-radius: $radius;
+background: #e0e0e0;
+box-shadow:  $eje $eje ($eje*2)#e0e0e0,
+            (-$eje) (-$eje) ($eje*2) #ffffff;
+}
+
+footer{
+@include neo(50px,21px);
+
+}
+.header__title{
+
+    @include neo( 5px, 10px );
+}
